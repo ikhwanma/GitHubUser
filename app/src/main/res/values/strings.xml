@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GitHubUser</string>
+    <string name="nama_user">Nama User</string>
+    <string name="lokasi">lokasi</string>
+    <string name="garis">|</string>
+    <string name="company">Company</string>
+    <string name="username">username</string>
+    <string name="repository">Repository</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="tab_text_1">Following</string>
+    <string name="tab_text_2">Followers</string>
+    <string name="search_hint">Masukkan Username</string>
+    <string name="search">Search</string>
+    <string name="strip">-</string>
+    <string name="favotite_user">Favotite User</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="settings">Settings</string>
+
+</resources>
+
+
