@@ -41,7 +41,7 @@ class DetailViewModel(application: Application) : ViewModel() {
         _isLoadingFollowing.value = true
         val client = AsyncHttpClient()
 
-        client.addHeader("Authorization", "token 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")
+        client.addHeader("Authorization", "token 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")
         client.addHeader("User-Agent", "request")
         val urlUser = "https://api.github.com/users/$username"
         val urlFollowers = "https://api.github.com/users/$username/followers"

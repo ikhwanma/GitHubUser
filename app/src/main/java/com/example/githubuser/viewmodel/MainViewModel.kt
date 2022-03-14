@@ -25,7 +25,7 @@ class MainViewModel : ViewModel() {
     fun getListUsers(){
         _isLoadingUsers.value = true
         val client = AsyncHttpClient()
-        client.addHeader("Authorization", "token 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")
+        client.addHeader("Authorization", "token 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")
         client.addHeader("User-Agent", "request")
         val url = "https://api.github.com/users"
         client.get(url, object : AsyncHttpResponseHandler() {
@@ -75,7 +75,7 @@ class MainViewModel : ViewModel() {
     fun getSearchedUsers(query:String?){
         _isLoadingUsers.value = true
         val client = AsyncHttpClient()
-        client.addHeader("Authorization", "token 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")
+        client.addHeader("Authorization", "token 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")
         client.addHeader("User-Agent", "request")
         val url = "https://api.github.com/search/users?q=$query"
         client.get(url, object : AsyncHttpResponseHandler() {
